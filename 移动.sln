@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "移动", "移动\移动.csproj", "{F6EE104A-0D6A-4506-B78B-2CFC99E11CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "轮播", "轮播\轮播.csproj", "{A7490C40-923B-4523-9E2E-92A9E199607E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{8A2ED966-39F1-4626-A21D-4527AD525117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{4F586974-DA1D-455C-8B5A-74D51B27E59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6EE104A-0D6A-4506-B78B-2CFC99E11CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EE104A-0D6A-4506-B78B-2CFC99E11CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EE104A-0D6A-4506-B78B-2CFC99E11CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EE104A-0D6A-4506-B78B-2CFC99E11CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7490C40-923B-4523-9E2E-92A9E199607E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7490C40-923B-4523-9E2E-92A9E199607E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7490C40-923B-4523-9E2E-92A9E199607E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7490C40-923B-4523-9E2E-92A9E199607E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2ED966-39F1-4626-A21D-4527AD525117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2ED966-39F1-4626-A21D-4527AD525117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2ED966-39F1-4626-A21D-4527AD525117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2ED966-39F1-4626-A21D-4527AD525117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F586974-DA1D-455C-8B5A-74D51B27E59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F586974-DA1D-455C-8B5A-74D51B27E59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F586974-DA1D-455C-8B5A-74D51B27E59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F586974-DA1D-455C-8B5A-74D51B27E59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="JavaScript1.js"></script>
+    <style>
+        element.style {
+            display: block;
+            left: 0px;
+            top: 100%;
+            transition: all 30ms ease;
+        }
+
+        #items {
+            list-style: none;
+            height: 118px;
+            position: relative;
+            margin: 0 0 25px;
+            padding: 0;
+        }
+
+            #items li {
+                float: left;
+                margin-right: 8px;
+                background: #fff;
+                position: relative;
+                border: 2px solid #fafafa;
+                display: list-item;
+                text-align: -webkit-match-parent;
+            }
+
+                #items li a {
+                    color: #fff;
+                    overflow: hidden;
+                    display: block;
+                    position: relative;
+                    background-color: transparent;
+                    text-decoration: none;
+                }
+
+                #items li img {
+                    /*display:block;
+            position:relative;*/
+                    border: 0;
+                    vertical-align: top;
+                    width: 113px;
+                    height: 113px;
+                }
+
+                #items li a div {
+                    position: absolute;
+                    background: #333;
+                    background: rgba(0,179,138,.9);
+                    width: 100%;
+                    height: 100%;
+                }
+
+                #items li a em {
+                    display: block;
+                    width: 100px;
+                    right: 5px;
+                    background: rgba(255,255,255,.3);
+                    margin: 0 6px;
+                    font-style: normal;
+                }
+
+                #items li a h2 {
+                    font-size: 24px;
+                    height: 24px;
+                    line-height: 24px;
+                    margin: 10px 8px 8px;
+                    font-weight: 400;
+                    text-align: center;
+                    overflow: hidden;
+                }
+
+                #items li a p {
+                    font-size: 12px;
+                    margin: 6px 8px;
+                    line-height: 18px;
+                    display: block;
+                    -webkit-margin-before: 1em;
+                    -webkit-margin-after: 1em;
+                    -webkit-margin-start: 0px;
+                    -webkit-margin-end: 0px;
+                }
+    </style>
+</head>
+<body>
+    <ul id="items">
+        <li>
+            <a href="#">
+                <img src="Images/1.jpg" />
+                <div class="hot_info" style="display:block;left:0px;top:100%;transition:all 30ms ease;">
+                    <h2 title="笨鸟社交">笨鸟社交</h2>
+                    <em></em>
+                    <p title="数据驱动营销，社交改变未来。">数据驱动营销，社交改变未来。</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="Images/2.png" />
+                <div class="hot_info" style="display:block;left:0px;top:100%;transition:all 30ms ease;">
+                    <h2 title="汽车之家">汽车之家</h2>
+                    <em></em>
+                    <p title="我的汽车网站，我的汽车之家！">我的汽车网站，我的汽车之家！</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="Images/3.jpg" />
+                <div class="hot_info" style="display:block;left:0px;top:100%;transition:all 30ms ease;">
+                    <h2 title="ITheat热点科技">ITheat热点科技</h2>
+                    <em></em>
+                    <p title="「热点科技」是中国领先的科技新媒体">「热点科技」是中国领先的科技新媒体</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="Images/4.png" />
+                <div class="hot_info" style="display:block;left:0px;top:100%;transition:all 30ms ease;">
+                    <h2 title="国双">国双</h2>
+                    <em></em>
+                    <p title="带你一起开启大数据之旅！">带你一起开启大数据之旅！</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="Images/5.jpg" />
+                <div class="hot_info" style="display:block;left:0px;top:100%;transition:all 30ms ease;">
+                    <h2 title="赛格威">赛格威</h2>
+                    <em></em>
+                    <p title="预测未来的最好方式，就是创造未来">预测未来的最好方式，就是创造未来</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="Images/6.jpg" />
+                <div class="hot_info" style="display:block;left:0px;top:100%;transition:all 30ms ease;">
+                    <h2 title="爱麦思科技">爱麦思科技</h2>
+                    <em></em>
+                    <p title="发展快，独角兽，福利好，团队氛围好">发展快，独角兽，福利好，团队氛围好</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</body>
+
+
+</html>
+<script>
+    $(function () {
+        //调用插件modal,一个操作元素,一个参数
+        //参数可以为空,默认为.hot_info
+        $("a").modal(".hot_info");
+    });
+
+</script>
